@@ -1,0 +1,22 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row id="wrapper-Menu">
+      <span>My Design App</span> 
+
+          <button mat-icon-button (click)="sidenav.toggle(); isCollapsed = !isCollapsed">
+          <mat-icon [@iconChange]="isCollapsed" >menu</mat-icon></button>
+
+
+        <!--<button id="button-login" md-button [routerLink]="['/signupin']" *ngIf="!(user | async)">Log In</button>-->
+     
+    </mat-toolbar-row>
+</mat-toolbar>   
+
+
+
+
+
+
+
+
+
+
